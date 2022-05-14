@@ -1,0 +1,40 @@
+.nav-container {
+    /* border: 1px solid black; */
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-middle-block {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width: 60%;
+}
+
+.nav-middle-block > div {
+    margin-left: 20px;
+}
+
+.m {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #0A81AB;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+}
+
+.btn:hover {
+    margin-top: 8px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}

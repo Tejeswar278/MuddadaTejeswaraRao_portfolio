@@ -1,0 +1,31 @@
+.about-container {
+    /* border: 1px solid green; */
+    height: 730px;
+    width: 80%;
+    margin: auto;
+}
+
+.blue {
+    color: #0A81AB;
+}
+
+.center {
+    text-align: center;
+}
+
+.about1 {
+    padding: 50px 0px 50px 0px;
+    font-size: 40px;
+}
+
+.about2 {
+    font-size: 20px;
+}
+
+.para1 {
+    padding-bottom: 35px;
+}
+span {
+    color: #0A81AB;
+    font-style: italic;
+}

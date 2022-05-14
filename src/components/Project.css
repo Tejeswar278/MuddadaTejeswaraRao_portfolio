@@ -1,0 +1,61 @@
+.project-container {
+    /* border: 1px solid red; */
+    padding-bottom: 50px;
+}
+
+.project-grid {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2,50%);
+    gap: 40px;
+}
+
+.project-card {
+    height: 560px;
+    border: 2px solid #0A81AB;
+    padding: 20px;
+}
+
+.project-header {
+    font-size: 40px;
+}
+
+.project-sub-header {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.project-ts {
+    display: flex;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.project-descript {
+    height: 50px;
+}
+
+.project-l{
+    background-color: #0A81AB;
+    text-decoration: none;
+    color: white;
+}
+
+.project-g {
+    color: #0A81AB;
+    text-decoration: none;
+}
