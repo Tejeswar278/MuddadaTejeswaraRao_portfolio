@@ -2,8 +2,9 @@ import './About.css'
 
 export const About = () => {
     return (
-        <div className='about-container'>
-            <div className='about1 center'>
+        <div id='about' className='about-container'>
+            <div className='m-t'>.</div>
+            <div className='m-t about1 center'>
                 LET ME <span>INTRODUCE</span> MYSELF
             </div>
             <div className='about2'>

@@ -2,8 +2,9 @@ import "./Contact.css"
 
 export const Contact = () => {
     return (
-        <div className="contact-container">
-            <div className="contact-header">Contact <span>me</span></div>
+        <div id="contact" className="contact-container">
+            <div className="m-t">.</div>
+            <div className="m-t contact-header">Contact <span>me</span></div>
             <div className="contact-sub-header">Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.</div>
             <div className="contact-list">
                 <button>8333014386</button>

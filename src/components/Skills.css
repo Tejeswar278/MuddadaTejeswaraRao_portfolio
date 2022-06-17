@@ -35,11 +35,15 @@
     margin-bottom: 30px;
 }
 
-.skills {
+.skill {
     align-items: center;
     text-align: center;
 }
 
 .m-b {
     margin-bottom: 50px;
+}
+
+.m-t {
+    margin-top: 100px;
 }

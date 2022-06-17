@@ -2,9 +2,10 @@ import './Skills.css'
 
 export const Skills = () => {
     return (
-        <div className="skills-container">
-            <div className='skills-header'>Skills</div>
-            <div className='skills m-b'>
+        <div id='skills' className="skills-container">
+            <div className='m-t'>.</div>
+            <div className='m-t skills-header'>Skills</div>
+            <div className='skill m-b'>
                 <div className='skills-btns'>
                     <button className='skills-btn'>Mongodb</button>    
                     <button className='skills-btn'>Express</button>
@@ -18,7 +19,7 @@ export const Skills = () => {
                     <button className='skills-btn'>Redux</button>
                 </div>
             </div>
-            <div className='skills'>
+            <div className='skill'>
                     <button className='skills-btn'>Visual studio</button>
                     <button className='skills-btn'>Postman</button>
                     <button className='skills-btn'>Amazonaws</button>

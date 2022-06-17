@@ -5,8 +5,9 @@ import './Project.css'
 
 export const Projects = () => {
     return (
-        <div className='project-container'>
-            <div>
+        <div id='projects' className='project-container'>
+            <div className='m-t'>.</div>
+            <div className='m-t'>
                 <div className='project-header'>MY RECENT <span>WORKS</span></div>
                 <div className='project-sub-header'>Here are few <span>projects</span> that I've recently worked on</div>
             </div>
