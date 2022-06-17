@@ -10,6 +10,7 @@ export const Navbar = () => {
                 <div><button className="m btn">Projects</button></div>
                 <div><button className="m btn">Contact</button></div>
                 <div><button className="m btn">Resume</button></div>
+                
             </div>
         </div>
     )
