@@ -33,16 +33,25 @@
 }
 
 .contact-list {
+    border: 1px solid red;
     margin-top: 100px;
-}
-
-.contact-list > button:hover {
-    background-color: #0A81AB;
-    color: white;
-    cursor: pointer;
-    font-size: 15px;
+    padding: 20px;
+    justify-content: space-around;
 }
 
 .m-t {
     margin-top: 100px;
+}
+.contact-list > a {
+    background-color: #0A81AB;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contact-list > a:hover {
+    background-color: white;
+    color: #0A81AB;
+    margin-bottom: 4px;
 }

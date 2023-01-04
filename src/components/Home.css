@@ -30,3 +30,8 @@
 .m-t {
     margin-top: 100px;
 }
+
+#home {
+    margin-top: -100px;
+    transition: 2s;
+}
