@@ -1,6 +1,7 @@
 .contact-container {
     text-align: center;
     height: 730px;
+    margin-bottom: 200px;
 }
 
 .contact-m {
@@ -54,4 +55,29 @@
     background-color: white;
     color: #0A81AB;
     margin-bottom: 4px;
+}
+
+@media screen and (max-width:820px){
+    .contact-list > *{
+        display: flex;
+    }
+
+    .dot {
+        display: none;
+    }
+    .contact-container {
+        margin-bottom: 350px;
+    }
+
+}
+
+@media screen and (max-width:420px){
+    .contact-header {
+        font-size: 25px;
+    }
+
+    .contact-sub-header {
+        font-size: 15px;
+    }
+
 }

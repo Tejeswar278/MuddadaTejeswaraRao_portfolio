@@ -2,8 +2,8 @@ import './About.css'
 
 export const About = () => {
     return (
-        <div id='about' className='about-container'>
-            <div className='m-t'>.</div>
+        <div id='about' className='about-container offset'>
+            {/* <div className='m-t dot'>.</div> */}
             <div className='m-t about1 center'>
                 LET ME <span>INTRODUCE</span> MYSELF
             </div>
