@@ -36,10 +36,11 @@ nav a {
     background: transparent;
     border: none;
     outline: none;
-    color: var(--textColor);
+    color: white;
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+    /* background-color: white; */
 }
 
 .nav-close-btn >* {
@@ -69,16 +70,20 @@ nav a {
         flex-direction: column;
         align-items: center;
         justify-content:center;
-        gap: 2rem;
+        gap: 1rem;
         background-color: var(--primaryColor);
         transition: 0.5rem;
         transform: translateX(100vh);
+        padding-top: 70px;
+        padding-bottom: 20px;
     }
 
     a.m {
-        width: 100px;
+        width: 80%;
         font-size: 20px;
-        height: 35px;
+        border-bottom: 5px solid #0A81AB;
+        height: 50px;
+        background: transparent;
     }
 
     .nav-container .responsive{
@@ -87,7 +92,7 @@ nav a {
 
     nav .nav-close-btn{
         position: absolute;
-        top: 2rem;
+        top: 1.2rem;
         right: 2rem;
     }
 

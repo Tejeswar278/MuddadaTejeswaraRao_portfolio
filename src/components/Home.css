@@ -36,13 +36,18 @@
     transition: 2s;
 }
 
+@media (max-width:1024px){
 
+    .home-intro > * {
+        font-size: 20px;
+    }
+}
 
 @media (max-width:820px) {
     .home-container {
         display: flex;
         flex-direction: column;
-        margin-bottom: 250px;
+        /* margin-bottom: 250px; */
     }
 
     .home-profile {
