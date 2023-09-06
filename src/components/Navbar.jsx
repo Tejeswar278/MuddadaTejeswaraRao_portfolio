@@ -1,17 +1,32 @@
+import React, { useRef } from "react"
 import "./Navbar.css"
+import {AiFillCloseCircle} from "react-icons/ai"
+import {FaBars} from "react-icons/fa"
 
-export const Navbar = () => {
+function Navbar (){
+    const navref = useRef();
+
+    const shownavref=()=> {
+        navref.current.classList.toggle("responsive")
+    }
     return (
         <div className="nav-container">
-            <div className="nav-middle-block">
-                <a className="m" href="#home"><div><button className="m btn">Home</button></div></a>
-                <a className="m" href="#about"><div><button className="m btn">About</button></div></a>
-                <a className="m" href="#skills"><div><button className="m btn">Skills</button></div></a>
-                <a className="m" href="#projects"><div><button className="m btn">Projects</button></div></a>
-                <a className="m" href="#contact"><div><button className="m btn">Contact</button></div></a>
-                <a className="m" href="https://www.canva.com/design/DAE8Y4Nu5TY/ikBgov_AYxtQITyanCbigA/view?utm_content=DAE8Y4Nu5TY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"><div><button className="m btn">Resume</button></div></a>
-                
-            </div>
+            <nav ref={navref}>
+                <a className="m" onClick={shownavref} href="#home">Home</a>
+                <a className="m" onClick={shownavref} href="#about">About</a>
+                <a className="m" onClick={shownavref} href="#skills">Skills</a>
+                <a className="m" onClick={shownavref} href="#projects">Projects</a>
+                <a className="m" onClick={shownavref} href="#contact">Contact</a>
+                <a className="m" onClick={shownavref} href="https://www.canva.com/design/DAE8Y4Nu5TY/ikBgov_AYxtQITyanCbigA/view?utm_content=DAE8Y4Nu5TY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Resume</a>
+                <button className="nav-btn nav-close-btn" onClick={shownavref}>
+                    <AiFillCloseCircle/>
+                </button>
+            </nav>
+            <button className="nav-btn" onClick={shownavref}>
+                <FaBars/>
+            </button>
         </div>
     )
 }
+
+export default Navbar
