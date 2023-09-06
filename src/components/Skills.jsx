@@ -2,8 +2,8 @@ import './Skills.css'
 
 export const Skills = () => {
     return (
-        <div id='skills' className="skills-container">
-            <div className='m-t'>.</div>
+        <div id='skills' className="skills-container offset">
+            {/* <div className='m-t dot'>.</div> */}
             <div className='m-t skills-header'>Skills</div>
             <div className='skill m-b'>
                 <div className='skills-btns'>

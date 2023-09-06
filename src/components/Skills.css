@@ -1,6 +1,6 @@
 .skills-container {
     /* border: 1px solid red; */
-    height: 730px;
+    /* height: 730px; */
     width: 80%;
     margin: auto;
 }
@@ -10,6 +10,7 @@
     color: #0A81AB;
     text-align: center;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 
 .skills-btn {
@@ -46,4 +47,25 @@
 
 .m-t {
     margin-top: 100px;
+}
+
+@media screen and (max-width : 820px){
+    .skills-container {
+        height: auto;
+    }
+
+    .dot {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .skills-header {
+        font-size: 25px;
+    }
+
+    .skills-btn {
+        width: 100px;
+        font-size: 15px;
+    }
 }
