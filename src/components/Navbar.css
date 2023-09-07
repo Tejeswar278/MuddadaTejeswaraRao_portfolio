@@ -72,7 +72,7 @@ nav a {
         justify-content:center;
         gap: 1rem;
         background-color: var(--primaryColor);
-        transition: 0.5rem;
+        transition: 280ms all 120ms ease-out;
         transform: translateX(100vh);
         padding-top: 70px;
         padding-bottom: 20px;

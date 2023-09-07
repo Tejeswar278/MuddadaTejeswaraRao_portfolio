@@ -12,6 +12,7 @@ export const Contact = () => {
                 <a className="contact-g" href="https://github.com/Tejeswar278" target="_blank">Github</a>
                 <a className="contact-l" href="https://www.linkedin.com/in/tejeswara-rao-muddada/" target="_blank">LinkedIn</a>
             </div>
+            
         </div>
     )
 }

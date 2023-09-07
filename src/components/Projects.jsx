@@ -12,6 +12,9 @@ export const Projects = () => {
                 <div className='project-header'>MY RECENT <span>WORKS</span></div>
                 <div className='project-sub-header'>Here are few <span>projects</span> that I've recently worked on</div>
             </div>
+            <div className='git-stats-header'>
+            <img className="git-stats" src="https://github-readme-stats.vercel.app/api?username=Tejeswar278&theme=" alt="githubstats"/>
+            </div>
             <div className='project-grid'>
                 <div className='project-card'>
                     <img className='project-img' src={p1} alt='project-image'/>
