@@ -58,6 +58,10 @@ br {
     display: none;
 }
 
+.mongo {
+    color: green !important;
+}
+
 @media screen and (max-width : 820px){
     .skills-container {
         height: auto;
