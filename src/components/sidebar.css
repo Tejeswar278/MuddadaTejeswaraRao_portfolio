@@ -19,27 +19,7 @@
     background-color: #000;
   }
   
-  .facebook {
-    background: #0A81AB;
-    color: white;
-  }
-  
-  .twitter {
-    background: #0A81AB;
-    color: white;
-  }
-  
-  .google {
-    background: #0A81AB;
-    color: white;
-  }
-  
-  .linkedin {
-    background: #0A81AB;
-    color: white;
-  }
-  
-  .youtube {
+  .icon-style {
     background: #0A81AB;
     color: white;
   }

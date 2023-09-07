@@ -6,11 +6,9 @@ import {FaBars} from "react-icons/fa"
 function Sidebar (){
     return (
         <div class="icon-bar">
-            {/* <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> */}
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            {/* <a href="#" class="google"><i class="fa fa-google"></i></a> */}
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            {/* <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> */}
+            <a href="https://github.com/Tejeswar278" class="icon-style" target="_blank" className="icon-style"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tejeswara-rao-muddada/" target="_blank" class="icon-style"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/Tejeswa07052907" target="_blank" class="icon-style"><i class="fa fa-twitter"></i></a>
         </div>
     )
 }

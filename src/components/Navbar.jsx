@@ -17,7 +17,7 @@ function Navbar (){
                 <a className="m" onClick={shownavref} href="#skills">Skills</a>
                 <a className="m" onClick={shownavref} href="#projects">Projects</a>
                 <a className="m" onClick={shownavref} href="#contact">Contact</a>
-                <a className="m" onClick={shownavref} href="https://www.canva.com/design/DAE8Y4Nu5TY/ikBgov_AYxtQITyanCbigA/view?utm_content=DAE8Y4Nu5TY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Resume</a>
+                <a className="m" onClick={shownavref} href="https://drive.google.com/file/d/12kRTajL2itGNCJZCJ1i0QuTrm2ISOn34/view?usp=sharing" target="_blank">Resume</a>
                 <button className="nav-btn nav-close-btn" onClick={shownavref}>
                     <AiFillCloseCircle/>
                 </button>

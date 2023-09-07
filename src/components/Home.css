@@ -7,14 +7,15 @@
 
 .home-profile {
     width: 40%;
-    padding: 150px 0px 0px 150px;
+    padding: 300px 0px 0px 150px;
+    justify-content: space-around;
 }
 
 .home-intro {
     width: 60%;
     /* height: 100%; */
     /* border: 1px solid red; */
-    padding-top: 250px;
+    padding-top: 400px ;
     font-size: 40px;
 }
 
