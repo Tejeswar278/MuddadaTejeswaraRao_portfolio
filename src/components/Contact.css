@@ -1,7 +1,9 @@
 .contact-container {
     text-align: center;
     height: 730px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .contact-m {
@@ -70,7 +72,18 @@
         display: none;
     }
     .contact-container {
-        margin-bottom: 350px;
+        margin-bottom: 0px;
+    }
+
+    .contact-list a {
+        /* width: 80%; */
+        margin-right: 0px;
+    }
+
+    .contact-list {
+        width: 80%;
+        width: auto;
+        /* margin: auto; */
     }
 
 }
@@ -85,7 +98,7 @@
     }
 
     .contact-list a {
-        width: 300px;
+        /* width: 80%; */
         margin-right: 0px;
     }
     
@@ -93,8 +106,8 @@
         margin: auto;
     }
 
-    .contact-list > a {
-        margin-left: 40px;
+    .contact-container {
+        margin-bottom: 0px;
     }
 
 }

@@ -93,6 +93,10 @@
 
 }
 
+.project-ts > div:first-child {
+    white-space: nowrap;
+}
+
 @media (max-width:820px){
     .project-grid {
         all: initial;
@@ -150,6 +154,10 @@
     .techstack {
         font-weight:100;
         margin-left: 20px;
+    }
+
+    .project-ts > div:first-child {
+        white-space: nowrap;
     }
 }
 
